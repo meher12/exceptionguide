@@ -17,9 +17,9 @@
   ```
 
   ## Customizing Error Response Structure:
-    *  Default error response provided by Spring Boot contains all the details that are typically needed. we can define a specific error response structure. \
+      *  Default error response provided by Spring Boot contains all the details that are typically needed. we can define a specific error response structure. \
        Let’s define a simple error response bean. \
-
+       
 ```
 public class ErrorDetails {
 private Date timestamp;
