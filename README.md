@@ -49,7 +49,7 @@ return details;
    * To use ErrorDetails to return the error response, let’s create a GlobalExceptionHandler class annotated with @ControllerAdvice annotation. 
  ````
   ```
-     That's a cool error response ;) !! .
+     That's a cool error response Enjoy ;) !! .
   ```
  ````     
   
