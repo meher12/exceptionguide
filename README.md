@@ -16,10 +16,11 @@
   }
   ```
 
-  ## Customizing Error Response Structure: 
+  ## Customizing Error Response Structure:
        *  Default error response provided by Spring Boot contains all the details that are typically needed. we can define a specific error response structure. \
           Let’s define a simple error response bean. \
-            ```
+
+        ```
                 public class ErrorDetails {
                 private Date timestamp;
                 private String message;
@@ -44,6 +45,7 @@
                 return details;
                 }
                 }
-            ```
+        ```
+        
         * To use ErrorDetails to return the error response, let’s create a GlobalExceptionHandler class annotated with @ControllerAdvice annotation. 
   
